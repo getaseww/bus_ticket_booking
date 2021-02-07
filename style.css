@@ -1,0 +1,126 @@
+/* index page */
+
+.b{
+    background:url('images/bus1.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #ffffff;
+    padding: 10em 0em 14em;
+    text-align: center;
+    height: 300px;
+}
+#r_btn{
+    margin-top:50px;
+}
+
+/* des section */
+.description h2{
+    text-align:center;
+    padding-top:30px;
+}
+#offers{
+    padding:20px;
+}
+/* buses section  */
+
+.bus-types{
+    padding:30px;
+}
+.bus-types h2{
+    text-align:center;
+    padding-bottom:10px;
+}
+.buses{
+    margin:30px;
+}
+#bus-img{
+    height: 200px;
+}
+#bus-img:hover{
+    opacity: 1.0;
+    filter: alpha(opacity=100);
+}
+/* footer */
+footer{
+    color: white;
+    margin-top:30px;
+    background-color:rgb(12, 12, 14);
+}
+.fot-ul{
+    list-style-type:none;
+    padding-left:100px;
+}
+#fot-row .col-lg-4 h5{
+    padding-top:20px;
+    padding-left:100px;
+}
+.copyr{
+    text-align:center;
+    padding-top:5px;
+}
+/* message */
+
+
+/* contact */
+.section-tile{
+    text-align:center;
+}
+
+/* responsive */
+
+@media (max-width:800px){
+    /* description sec */
+    .description h2{
+        text-align:center;
+        padding-top:30px;
+    }
+    #offers{
+        display: block;
+        padding:20px;
+        text-align: center;
+    }
+
+    #offers div{
+        padding-left:100px;
+        padding-right:100px;
+        padding-bottom:20px;
+        text-align: center;
+    }
+    /* buses sec */
+    .bus-types{
+        padding:10px;
+    }
+    .bus-types .row{
+        padding:10px;
+    }
+    .bus-types .col-sm-12{
+        padding-top:30px;
+        padding-left:50px;
+        padding-right: 50px;
+    }
+    /* footer */
+    footer{
+        margin-top:30px;
+    }
+    .fot-ul{
+        list-style-type:none;
+        padding-left:200px;
+    }
+    #fot-row .col-sm-12 h5{
+        padding-top:20px;
+        padding-left:200px;
+    }
+    .copyr{
+        text-align:center;
+        padding-top:5px;
+    }
+
+    /* contact */
+    #contact-btn{
+        margin-left:200px;
+        width: 60px;
+        border-radius: 4px;    
+    }
+}
+
